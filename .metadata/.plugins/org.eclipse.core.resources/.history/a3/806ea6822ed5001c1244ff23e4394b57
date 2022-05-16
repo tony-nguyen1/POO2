@@ -49,7 +49,7 @@ public class Personne {
 	}
 	
 	public void setMere(Personne mere) throws Exception {
-		setParent(mere, 1);
+		setParent(mere, 0);
 		assert mere != this && mere.getAge() > 16 : "mere == this || trop jeune";
 	}
 
