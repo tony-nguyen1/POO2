@@ -31,26 +31,8 @@ public class Personne {
 		return false;
 	}
 	
-	public int getAge() { return 2022 - anneeNaissance; }
-	
-	private void setParent(Personne p, int i) throws Exception {
-		if (p == this) {
-			throw new Exception("parent == enfant");
-		} else if (p.getAge() <= 16) {
-			throw new Exception("parent trop jeune");
-		}
-			
+	private void setParent(Personne p, int i) {
 		parents[i] = p;
-	}
-	
-	public void setPere(Personne pere) throws Exception {
-		setParent(pere, 0);
-		assert pere != this && pere.getAge() > 16 : "pere == this || trop jeune";
-	}
-	
-	public void setMere(Personne mere) throws Exception {
-		setParent(mere, 0);
-		assert mere != this && mere.getAge() > 16 : "mere == this || trop jeune";
 	}
 
 }

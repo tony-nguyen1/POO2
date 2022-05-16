@@ -34,12 +34,10 @@ public class Personne {
 	public int getAge() { return 2022 - anneeNaissance; }
 	
 	private void setParent(Personne p, int i) throws Exception {
-		if (p == this) {
-			throw new Exception("parent == enfant");
-		} else if (p.getAge() <= 16) {
+		if (p == this || p.getAge() <= 16) {
 			throw new Exception("parent trop jeune");
 		}
-			
+
 		parents[i] = p;
 	}
 	

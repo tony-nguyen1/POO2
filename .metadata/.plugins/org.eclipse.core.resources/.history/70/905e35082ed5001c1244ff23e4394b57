@@ -35,7 +35,7 @@ public class Personne {
 	
 	private void setParent(Personne p, int i) throws Exception {
 		if (p == this) {
-			throw new Exception("parent == enfant");
+			throw new Exception("parent trop jeune");
 		} else if (p.getAge() <= 16) {
 			throw new Exception("parent trop jeune");
 		}

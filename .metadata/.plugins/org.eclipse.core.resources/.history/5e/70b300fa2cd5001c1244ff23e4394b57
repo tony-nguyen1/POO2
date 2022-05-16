@@ -1,0 +1,10 @@
+package assertionsExceptions;
+
+public class AppPersonne {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

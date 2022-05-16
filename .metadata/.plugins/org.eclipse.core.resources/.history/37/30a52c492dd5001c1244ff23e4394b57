@@ -1,0 +1,14 @@
+package assertionsExceptions;
+
+public class AppPersonne {
+
+	public static void main(String[] args) throws Exception{
+		Personne P1 = new Personne(1980, true);
+		Personne M1 = new Personne(1982, true);
+		
+		Personne enfant = new Personne(2020, true);
+		
+		
+	}
+
+}

@@ -1,0 +1,35 @@
+package assertionsExceptions;
+
+public class Personne {
+	private int anneeNaissance;
+	private boolean vivant;
+	private boolean majeur;
+	private Personne pere, mere;
+	public Personne(int anneeNaissance, boolean vivant) throws Exception {
+		setAnneeNaissance(anneeNaissance);
+		this.vivant = vivant;
+	}
+	public Personne(int anneeNaissance, boolean vivant, Personne pere, Personne mere) throws Exception {
+		this(anneeNaissance, vivant);
+		this.pere = pere;
+		this.mere = mere;
+	}
+	
+	public void setAnneeNaissance(int i) throws Exception {
+		if (i <= 1900) {
+			throw new Exception("annee de naissance doit être supérieur à 190 ");
+		}
+		
+		anneeNaissance = i;
+	}
+	
+	public static boolean isMajor(int anneeNaissance) {
+		
+		if (2022 - anneeNaissance >= 18) {
+			return true;
+		}
+		
+		return false;
+	}
+
+}
