@@ -1,0 +1,18 @@
+diagramme d'activité
+noeud
+
+flèche = 1 jeton
+pas de synchronisation
+
+grosse barre = synchronisation ou fork
+petit nuage = truc informatique produit
+
+
+diagramme de séquence
+se mettre d'accord sur un cas particulier
+interaction
+
+diagramme état-transition
+état représente comportement de classe
+
+diagramme de communication = diagramme d'objet + diagramme de séquence

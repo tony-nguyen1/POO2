@@ -1,0 +1,2 @@
+Q1.
+empiler() peut renvoyer une exception car une fonction à l'intérieur peut en envoyer une.

@@ -1,0 +1,27 @@
+Use Case
+Cas d'utilisation : Effectuer un achat (inclus le remplissage du panier)
+Déclencheur: le panier commence à être rempli
+Portée: portail d'achat quincaillerie
+Niveau: but utilisateur (service rendu directement à l'utilisateur)
+Partenaires et leurs préoccupations: Client, pad de préoccupations liées aux stocks | financières
+Précondition: le catalogue est en cours de consulation
+Garantie minimale: l'état du panier est maintenu
+Garantie en cas de succès: la commande est passé et le paiement a été effectué, les points de fidélité ont été ajouter au compte client, le compte a un client
+Scénario principale (nominal): 
+	1) le client consulte le catalogue
+	2) le client ajoute des références de pièces au panier et en incrémente les quantités
+	3) le client valide le panier
+	4) le client s'identifie avec son adresse mail
+	5) le client confirme ses coordonnéees
+	6) le client effectue le paiement et reçoit des points de fidélité & le système calcule et affiche ses points de fidélité
+Extentions (erreurs qu'on essaie de rattraper, endroit où ça aurrait pu mal se passer): s'identifie avec adresse mail non reconnue -> repropose de s'identifier et propose de créer un compte
+	5) a. l'identification échoue, le système propose une nouvelle saisie ou une création de compte
+	7) a. échec paiement, le système lui propose de recommencer le paiement
+Variations (chemins alternatif, mais pas erreur):
+	2) a. le client retire des reférences
+	2) b. décrémente des quantités
+	4) a. le client se crée un compte et saisie ses coordonnées
+	6) b. le client demande une facture
+à partir du moment ou il est identifié, il peut consulter ses points de fidélités
+il visualise le panier
+

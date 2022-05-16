@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="assertionsExceptions.PileBorneeTailleMaxPlusGrandQueTailleException"/>
+    <fullyQualifiedTypeName name="assertionsExceptions.PileBornee"/>
+    <fullyQualifiedTypeName name="assertionsExceptions.PileBorneeTailleMaxPlusPetiteQueTailleException"/>
+    <fullyQualifiedTypeName name="assertionsExceptions.PileBorneePleineException"/>
+    <fullyQualifiedTypeName name="assertionsExceptions.PileBorneeTailleMaxNegException"/>
+    <fullyQualifiedTypeName name="assertionsExceptions.PileVideException"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Repeatable"/>
+    <fullyQualifiedTypeName name="td4.RefactoringName"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Annotation"/>
+    <fullyQualifiedTypeName name="td4.RefactoringOperation"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Modifier"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="streamsIterateurs.DirectionLyceeIterator"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="streamsIterateurs.EmployeLycee"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="td6_Arbres.ArbreBinaireDecisionEtiquetee"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="td6_Arbres.ADB"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+</qualifiedTypeNameHistroy>

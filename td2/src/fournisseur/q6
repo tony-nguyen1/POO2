@@ -1,0 +1,12 @@
+protected : accès aux instances :
+	-la même classe
+	-les sous-classes
+	-même package
+
+package : accès aux instances 
+	-de la même classe
+	-des classes du même package
+
+RetailerOfCandies et Child dans le même package
+
+Les autres classes dans un autre package

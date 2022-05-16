@@ -1,0 +1,36 @@
+Alarme incendie: Diagramme de Séquence OK ( ou diagramme d'activité) 
+Use Case n'a pas -> le temps/étapes/chronologie et l'interaction entre les éléments du système
+
+Sauce Béchamel: (Diagramme d'Activité) diagramme de séquence
+pas diagramme état-transition
+
+Jeu des petits chevaux: Diagramme Use Case insufisant, manque la chronologie
+diagramme de classe, on voit toute les entités, diagramme de séquence, diagramme d'état-transition
+
+Schéma de compilation: Diagramme d'États-Transitions compilateur, diagramme d'activité la compilation
+
+SPIP: Diagramme d'Activité (flow de controle/données) diagramme de séquence
+
+Tactique de football: Diagramme de Séquence OK
+
+Alerte intresion: Diagrame d'Activité OK
+
+Equipe de handball: Diagrame de déploiement <- NON, diagramme de classe avec la composition
+
+Réseau: Diagramme de déploiement diagramme de classe
+diagramme structurel
+
+Parallel architecture: Diagramme de communication <- NON, diagramme de composant
+
+Commande: Diagramme de composant diagramme d'activité
+des acteurs, des activités
+
+Métamorphoses: Diagramme d'États-Transitions OK
+
+Retour de produit: Diagramme de Séquence et diagramme d'activité
+
+Ticket: Diagramme d'États-Transition
+début et fin 1 seul objet
+pas diagramme d'activité:pls objts
+
+Organisation de réunion: Diagramme d'Activité séquence

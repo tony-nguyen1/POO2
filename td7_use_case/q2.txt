@@ -1,0 +1,1 @@
+En tant que client, je souhaite ajouter un produit dans mon panier afin de l'acheter plus tard.

@@ -1,0 +1,22 @@
+En tant que visiteur je veux acheter un ticket pour un événement pour y assister ou l’offrir
+
+Critère:
+Lorsque j'achète un ticket, alors un ticket est associé à mon compte.
+
+-------------------------------
+
+En tant que visiteur je veux télécharger une version pdf du ticket pour l’utiliser le jour J
+
+Critère:
+En tant que visiteur, alors je reçoit par mail mon ticket.
+
+
+
+
+
+
+
+
+Contexte où qui ?
+Action
+Résultat

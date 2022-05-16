@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="printClean"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="printClean"/>
+			<item value="— "/>
+			<item value="- "/>
+			<item value="public"/>
+			<item value="getListMembreDirection"/>
+			<item value="return "/>
+			<item value="corps"/>
+			<item value="&gt; annee"/>
+			<item value=" &lt; annee"/>
+			<item value="getProviseur()"/>
+			<item value="getAge()"/>
+			<item value="age"/>
+			<item value="initialiser"/>
+		</list>
+		<list key="replacehistory">
+			<item value="printCleanAux"/>
+			<item value="public "/>
+			<item value="membres"/>
+			<item value="e = "/>
+			<item value=" &lt; annee"/>
+			<item value="&gt; annee"/>
+			<item value="getGestionnaire()"/>
+			<item value="getConseillerPrincipalEducation()"/>
+			<item value="getProviseurAdjoint()"/>
+			<item value="getNom()"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="931"/>
+		<item key="DIALOG_Y_ORIGIN" value="215"/>
+		<item key="DIALOG_WIDTH" value="348"/>
+		<item key="DIALOG_HEIGHT" value="437"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="689"/>
+		<item key="DIALOG_Y_ORIGIN" value="439"/>
+	</section>
+</section>
