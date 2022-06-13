@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="printClean"/>
+		<item key="selection" value="Ça a lancé "/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Ça lance "/>
+			<item value="Ça lance une erreur"/>
+			<item value="pere"/>
 			<item value="printClean"/>
 			<item value="— "/>
 			<item value="- "/>
@@ -20,9 +23,11 @@
 			<item value="getProviseur()"/>
 			<item value="getAge()"/>
 			<item value="age"/>
-			<item value="initialiser"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Ça a lancé "/>
+			<item value="Ça a lancé une erreur"/>
+			<item value="mere"/>
 			<item value="printCleanAux"/>
 			<item value="public "/>
 			<item value="membres"/>
@@ -36,7 +41,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="931"/>
+		<item key="DIALOG_X_ORIGIN" value="576"/>
 		<item key="DIALOG_Y_ORIGIN" value="215"/>
 		<item key="DIALOG_WIDTH" value="348"/>
 		<item key="DIALOG_HEIGHT" value="437"/>
